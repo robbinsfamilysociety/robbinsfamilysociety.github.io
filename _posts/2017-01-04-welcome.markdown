@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Welcome!"
+author: "Tod Robbins"
+date:   2017-01-04 13:29:22 -0700
+categories: update
+---
+Welcome to the Robbins Family Society website. We're just getting started and are excited to share our research and findings with the world.

@@ -1,0 +1,19 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.footer-col-1 {
+    width: -webkit-calc(35% - (30px / 2));
+    width: calc(33% - (30px / 2));
+}
+
+.footer-col-2 {
+    width: -webkit-calc(20% - (30px / 2));
+    width: calc(24% - (30px / 2));
+}
+
+.footer-col-3 {
+    width: -webkit-calc(45% - (30px / 2));
+    width: calc(43% - (30px / 2));
+}
