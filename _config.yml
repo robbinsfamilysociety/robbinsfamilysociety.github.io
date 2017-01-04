@@ -16,9 +16,9 @@
 title: Robbins Family Society
 email: robbinsfamilysociety@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  The Robbins Family Society is a continuation of the good work done by the Robbins Family of New Jersey Yahoo Group. The Robbins Family Society will build upon that work and build a global genealogical society of Daniel & Hope Robins descendants.
+  The Robbins Family Society is building a global genealogical society of Daniel & Hope Robins descendants.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: RobbinsSociety
 github_username:  robbinsfamilysociety
 
@@ -30,3 +30,5 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+disqus:
+    shortname: robbinsfamilysociety
