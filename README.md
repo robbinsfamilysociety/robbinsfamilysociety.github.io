@@ -1,3 +1,3 @@
 # Robbins Family Society Website
 
-Here we go: [http://robbinsfamilysociety.github.io](robbinsfamilysociety.github.io)
+Here we go: [robbinsfamilysociety.github.io](http://robbinsfamilysociety.github.io)
