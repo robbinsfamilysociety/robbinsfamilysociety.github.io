@@ -82,6 +82,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+  color: $grey-color;
   font-weight: $base-font-weight;
 }
 
@@ -95,7 +96,7 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: $brand-color;
   }
 
   &:hover {
@@ -110,12 +111,13 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit / 2;
+  color: $text-color-light;
+  border-left: 4px solid $brand-color;
+  background: $brand-color-light;
+  padding: $spacing-unit / 2;
   font-size: 18px;
-  letter-spacing: -1px;
-  font-style: italic;
+  font-weight: 100;
+  // font-style: italic;
 
   > :last-child {
     margin-bottom: 0;
@@ -193,7 +195,7 @@ pre {
   vertical-align: middle;
 
   path {
-    fill: $grey-color;
+    fill: $brand-color;
   }
 }
 
@@ -203,4 +205,5 @@ pre {
 
 hr {
   margin-bottom: 2rem;
+  border: 1px solid $grey-color-light;
 }

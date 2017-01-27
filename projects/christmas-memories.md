@@ -10,7 +10,7 @@ permalink: /projects/christmas-memories/
 
 ### Christmas Memories
 
-*by Mary Robbins*
+<p class="byline">By Mary Robbins</p>
 
 Growing up on the rural Eastern Shore of Maryland, my family of six lived miles away from PA, VA, and WV relatives, but my parents were newlywed when they followed a teaching position for my father, and a small community turn out to be just the right place to raise their family.
 
@@ -22,7 +22,7 @@ The coolest Christmas memory however, was not my own, it belonged to my father. 
 
 Christmas memories are about family and friends, and church family. Parents who raised us in the church and added the element of fun during the holidays. When I think back, the decorations, the trimmings, they weren’t expensive, and yet very sentimental. Pulled out from year to year; some ornaments are handmade, some were gifts. As the years past, I learned that an important of part Christmas magic was when I became one of Santa’s helpers found out first hand that it is a lot more fun to give that it is to receive.
 
-*Submitted December 14, 2014*
+<p class="byline">Submitted December 14, 2014</p>
 
 <hr>
 
@@ -30,7 +30,7 @@ Christmas memories are about family and friends, and church family. Parents who 
 
 ### My Most Memorable Christmas
 
-*by Bettylou H. Steadman*
+<p class="byline">By Bettylou H. Steadman</p>
 
 I will never forget one special Christmas in 1942. I was nine years old and living in a Children’s Home in New Jersey. My parents had split up when I was quite young, and when I was five years old, the family doctor suggested that my mother put me in the Home for various reasons, one being that I should be with children my own age.
 
@@ -42,4 +42,4 @@ When we reached the toy store, my father told me I could have anything I wanted.
 
 That was one Christmas that really stands out in my memory, and for many years after that, my dad and I would relive that night in our memories together. It never failed to bring a warm glow and a smile to our faces.
 
-*Submitted December 10, 2013*
+<p class="byline">Submitted December 10, 2013</p>

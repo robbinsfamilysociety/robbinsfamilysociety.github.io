@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 1px solid $brand-color;
+  background: $brand-color-light;
   min-height: 56px;
 
   // Positioning context for the mobile navigation icon
@@ -11,16 +11,18 @@
 }
 
 .site-title {
-  font-size: 26px;
-  font-weight: 300;
+  font-size: 28px;
+  font-weight: 400;
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0;
+  vertical-align: bottom;
   float: left;
+  color: $text-color;
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: $text-color;
   }
 }
 
@@ -61,7 +63,7 @@
       text-align: center;
 
       > svg path {
-        fill: $grey-color-dark;
+        fill: $brand-color;
       }
     }
 
@@ -93,8 +95,9 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  border-top: 1px solid $grey-color;
   padding: $spacing-unit 0;
+  background: $grey-color-light;
 }
 
 .footer-heading {
@@ -110,7 +113,7 @@
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: $grey-color;
+  color: $text-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -132,8 +135,8 @@
 }
 
 .footer-col-3 {
-  width: -webkit-calc(43% - (#{$spacing-unit} / 2));
-  width:         calc(43% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(60% - (#{$spacing-unit} / 2));
+  width:         calc(60% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -157,16 +160,35 @@
   }
 }
 
+.footer-logo {
+  width: 150px;
+  height: 150px;
+  padding-right: 1rem;
+  float: left;
+
+  @include media-query($on-laptop) {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 1.5rem;
+  }
+}
+
 
 
 /**
  * Page content
  */
+
+p {
+  margin-bottom: 2rem;
+}
+
 .page-content {
   padding: $spacing-unit 0;
 }
 
 .page-heading {
+  color: text-color !important;
   font-size: 20px;
 }
 
@@ -185,8 +207,13 @@
 }
 
 .post-link {
+  color: $brand-color;
   display: block;
   font-size: 24px;
+}
+
+.post-link:visited {
+  color: $brand-color;
 }
 
 
@@ -221,6 +248,7 @@
 
   h3 {
     font-size: 26px;
+    color: $text-color;
 
     @include media-query($on-laptop) {
       font-size: 22px;
@@ -234,4 +262,12 @@
       font-size: 18px;
     }
   }
+}
+
+
+.byline {
+  color: $text-color-light;
+  font-weight: 100;
+  font-style: italic;
+  margin-bottom: 2rem;
 }
