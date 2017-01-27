@@ -1,12 +1,10 @@
 ---
 layout: page
 title: Christmas Memories
-permalink: /christmas-memories/
+permalink: /projects/christmas-memories/
 ---
 
-# Christmas Memories
-
-Here you will find a collection of Christmas memories written by members of the Robbins Family Society. Feel free to submit your own Robbins memories to [robbinsfamilysociety@gmail.com](robbinsfamilysociety@gmail.com).
+> Here you will find a collection of Christmas memories written by members of the Robbins Family Society. Feel free to submit your own Robbins memories to [robbinsfamilysociety@gmail.com](robbinsfamilysociety@gmail.com).
 
 ## 2014
 
@@ -25,6 +23,8 @@ The coolest Christmas memory however, was not my own, it belonged to my father. 
 Christmas memories are about family and friends, and church family. Parents who raised us in the church and added the element of fun during the holidays. When I think back, the decorations, the trimmings, they weren’t expensive, and yet very sentimental. Pulled out from year to year; some ornaments are handmade, some were gifts. As the years past, I learned that an important of part Christmas magic was when I became one of Santa’s helpers found out first hand that it is a lot more fun to give that it is to receive.
 
 *Submitted December 14, 2014*
+
+---
 
 ## 2013
 
