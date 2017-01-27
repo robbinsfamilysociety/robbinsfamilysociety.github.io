@@ -24,9 +24,7 @@ Christmas memories are about family and friends, and church family. Parents who 
 
 *Submitted December 14, 2014*
 
-
 ---
-
 
 ## 2013
 
