@@ -32,3 +32,9 @@ exclude:
   - Gemfile.lock
 disqus:
     shortname: robbinsfamilysociety
+mapbox-token: pk.eyJ1IjoidG9kcm9iYmlucyIsImEiOiJ3cTUyNjVrIn0.8ozG-L3QDKblEshkqiEHFg
+mapid: katydecorah.21d6ba77
+mapid-winter: katydecorah.70f1a6d1
+mapboxjs: v2.4.0
+leafletjs: v0.4.0
+jquery: 3.1.1
