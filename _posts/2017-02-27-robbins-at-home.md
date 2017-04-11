@@ -7,7 +7,7 @@ categories: update
 ---
 I've had a fuzzy project idea floating in my head for a while now. The basic gist of the project is the documentation of all historical residences of Robbins family members starting with Daniel and Hope Robbins. If we can establish a latitude/longitude of a residence, whether the physical structure remains extant or not, through documentation then I think it would be useful to collate those locations into a database rendered as a map.
 
-To initiate the project, here is the last residence of my great-great-great-parents, Isaac Rogers Robbins and Hannah Libby Carter Robbins:
+To initiate the project, here is the last residence of my great-great-great-grandmother, Hannah Libby Carter Robbins:
 
 <div id='map'></div>
 <script>
@@ -25,10 +25,9 @@ var featureLayer = L.mapbox.featureLayer({
       'coordinates': [-111.671379,40.228241]
     },
     'properties': {
-      'name': 'Hannah Libby Robbins Last Residence',
+      'name': 'Hannah Libby Robbins<br>ca. 1930',
       'description': '409 S 700 W<br>Provo, UT 84601',
       'marker-color': '#00abff',
-      'marker-symbol': 'home',
       'marker-size': 'large'
     }
   }]
