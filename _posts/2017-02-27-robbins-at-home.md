@@ -12,8 +12,8 @@ To initiate the project, here is the last residence of my great-great-great-gran
 <div id='map'></div>
 <script>
 L.mapbox.accessToken = 'pk.eyJ1IjoidG9kcm9iYmlucyIsImEiOiJjaXpwdHgxbWowMHhoMndwN3V6dWJnYTd5In0.8VcUGZ3PuLMhewTm6MijAw';
-var map = L.mapbox.map('map', 'mapbox.streets')
-  .setView([40.2338, -111.6585], 14);
+var map = L.mapbox.map('map', 'mapbox.satellite')
+  .setView([40.2280, -111.6710], 17);
 
 var featureLayer = L.mapbox.featureLayer({
   'type': 'FeatureCollection',
