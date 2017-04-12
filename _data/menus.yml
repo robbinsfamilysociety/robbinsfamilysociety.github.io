@@ -1,0 +1,22 @@
+main:
+  - title: Home
+    identifier: Home
+    url: /
+
+  - title: Projects
+    identifier: projects
+    url: /projects
+
+  - title: About
+    identifier: about
+    url: /about
+
+# projects:
+#   - title: Christmas Memories
+#     url: /projects/christmas-memories
+#     identifier: christmas-memories
+#
+# projects:
+#   - title: Robbins at Home
+#     url: /projects/robbins-at-home
+#     identifier: robbins-at-home

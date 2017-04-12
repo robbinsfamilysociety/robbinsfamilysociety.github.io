@@ -2,6 +2,9 @@
 layout: page
 title: Christmas Memories
 permalink: /projects/christmas-memories/
+menus:
+  projects:
+    identifier: christmas-memories
 ---
 
 > Here you will find a collection of Christmas memories written by members of the Robbins Family Society. Feel free to submit your own Robbins memories to [robbinsfamilysociety@gmail.com](mailto:robbinsfamilysociety@gmail.com).
