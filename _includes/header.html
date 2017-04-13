@@ -14,13 +14,11 @@
       </span>
 
       <div class="trigger">
-        <nav>
           {% for my_page in site.menus.main %}
             {% if my_page.title %}
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {% endif %}
           {% endfor %}
-      </nav>
       </div>
     </nav>
 

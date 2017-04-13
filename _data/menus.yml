@@ -11,12 +11,12 @@ main:
     identifier: about
     url: /about
 
-# projects:
-#   - title: Christmas Memories
-#     url: /projects/christmas-memories
-#     identifier: christmas-memories
-#
-# projects:
-#   - title: Robbins at Home
-#     url: /projects/robbins-at-home
-#     identifier: robbins-at-home
+projects:
+  - title: Christmas Memories
+    url: /projects/christmas-memories
+    identifier: christmas-memories
+
+projects:
+  - title: Robbins at Home
+    url: /projects/robbins-at-home
+    identifier: robbins-at-home
