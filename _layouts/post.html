@@ -6,7 +6,11 @@ comments: true
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    <a href="/about/{{ page.author | downcase | replace: ' ','-' }}"><img class="avatar" src="/assets/images/tod-robbins.jpg" alt="{{ page.author }}"/></a>
+    <p class="post-meta">
+        {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><a href="/about/{{ page.author | downcase | replace: ' ','-' }}">{{ page.author }}</a></span></span>{% endif %}<br>
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+    </p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
