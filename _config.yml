@@ -27,12 +27,11 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
-  - jekyll-menus
 exclude:
   - Gemfile
   - Gemfile.lock
 disqus:
-    shortname: robbinsfamilysociety
+  shortname: robbinsfamilysociety
 mapbox-token: pk.eyJ1IjoidG9kcm9iYmlucyIsImEiOiJ3cTUyNjVrIn0.8ozG-L3QDKblEshkqiEHFg
 mapid-winter: katydecorah.70f1a6d1
 mapboxjs: v2.4.0
